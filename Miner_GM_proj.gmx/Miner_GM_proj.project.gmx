@@ -8,6 +8,7 @@
     <sound>sound\snd_mining</sound>
     <sound>sound\snd_rock_break</sound>
     <sound>sound\snd_cashing_in</sound>
+    <sound>sound\snd_level_up</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sp_p1</sprite>
