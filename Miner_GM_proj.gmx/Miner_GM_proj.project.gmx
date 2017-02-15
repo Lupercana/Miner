@@ -7,9 +7,19 @@
   <sounds name="sound">
     <sound>sound\snd_mining</sound>
     <sound>sound\snd_rock_break</sound>
+    <sound>sound\snd_cashing_in</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sp_p1</sprite>
+    <sprite>sprites\sp_p2</sprite>
+    <sprite>sprites\sp_p3</sprite>
+    <sprite>sprites\sp_p4</sprite>
+    <sprite>sprites\sp_p5</sprite>
+    <sprite>sprites\sp_p6</sprite>
+    <sprite>sprites\sp_p7</sprite>
+    <sprite>sprites\sp_p8</sprite>
+    <sprite>sprites\sp_p9</sprite>
+    <sprite>sprites\sp_p10</sprite>
     <sprite>sprites\sp_b1</sprite>
     <sprite>sprites\sp_b2</sprite>
     <sprite>sprites\sp_b3</sprite>
@@ -30,10 +40,14 @@
   <scripts name="scripts">
     <script>scripts\generate_field.gml</script>
     <script>scripts\create_block.gml</script>
+    <script>scripts\sel_pick.gml</script>
+    <script>scripts\disp_pick.gml</script>
+    <script>scripts\save_game.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_counts</font>
     <font>fonts\fnt_counts_bold</font>
+    <font>fonts\fnt_announcement</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_cmd</object>
@@ -49,6 +63,16 @@
     <object>objects\obj_button_sell_b10</object>
     <object>objects\obj_button_save_and_quit</object>
     <object>objects\obj_pickaxe</object>
+    <object>objects\obj_p1</object>
+    <object>objects\obj_p2</object>
+    <object>objects\obj_p3</object>
+    <object>objects\obj_p4</object>
+    <object>objects\obj_p5</object>
+    <object>objects\obj_p6</object>
+    <object>objects\obj_p7</object>
+    <object>objects\obj_p8</object>
+    <object>objects\obj_p9</object>
+    <object>objects\obj_p10</object>
     <object>objects\obj_block</object>
     <object>objects\obj_b1</object>
     <object>objects\obj_b2</object>
