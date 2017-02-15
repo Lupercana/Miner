@@ -9,6 +9,7 @@
     <sprite>sprites\sp_p1</sprite>
     <sprite>sprites\sp_b1</sprite>
     <sprite>sprites\sp_b2</sprite>
+    <sprite>sprites\sp_b3</sprite>
     <sprite>sprites\sp_b4</sprite>
     <sprite>sprites\sp_b5</sprite>
     <sprite>sprites\sp_b6</sprite>
@@ -34,17 +35,28 @@
   <objects name="objects">
     <object>objects\obj_cmd</object>
     <object>objects\obj_button_sell_b1</object>
+    <object>objects\obj_button_sell_b2</object>
+    <object>objects\obj_button_sell_b3</object>
+    <object>objects\obj_button_sell_b4</object>
+    <object>objects\obj_button_sell_b5</object>
+    <object>objects\obj_button_sell_b6</object>
+    <object>objects\obj_button_sell_b7</object>
+    <object>objects\obj_button_sell_b8</object>
+    <object>objects\obj_button_sell_b9</object>
+    <object>objects\obj_button_sell_b10</object>
     <object>objects\obj_button_save_and_quit</object>
     <object>objects\obj_pickaxe</object>
+    <object>objects\obj_block</object>
     <object>objects\obj_b1</object>
-    <object>objects\object6</object>
-    <object>objects\object7</object>
-    <object>objects\object8</object>
-    <object>objects\object9</object>
-    <object>objects\object10</object>
-    <object>objects\object11</object>
-    <object>objects\object12</object>
-    <object>objects\object13</object>
+    <object>objects\obj_b2</object>
+    <object>objects\obj_b3</object>
+    <object>objects\obj_b4</object>
+    <object>objects\obj_b5</object>
+    <object>objects\obj_b6</object>
+    <object>objects\obj_b7</object>
+    <object>objects\obj_b8</object>
+    <object>objects\obj_b9</object>
+    <object>objects\obj_b10</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>

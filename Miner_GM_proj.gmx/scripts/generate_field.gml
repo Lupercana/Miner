@@ -1,8 +1,6 @@
 field_width = 768;
 field_height = 768;
 
-global.grid_level = 1;
-
 var i, j;
 for (i = field_height / (global.grid_level + 1); i < field_height; i += field_height / (global.grid_level + 1))
 {
