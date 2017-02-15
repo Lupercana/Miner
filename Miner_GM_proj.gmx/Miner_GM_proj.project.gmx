@@ -8,16 +8,43 @@
   <sprites name="sprites">
     <sprite>sprites\sp_p1</sprite>
     <sprite>sprites\sp_b1</sprite>
+    <sprite>sprites\sp_b2</sprite>
+    <sprite>sprites\sp_b4</sprite>
+    <sprite>sprites\sp_b5</sprite>
+    <sprite>sprites\sp_b6</sprite>
+    <sprite>sprites\sp_b7</sprite>
+    <sprite>sprites\sp_b8</sprite>
+    <sprite>sprites\sp_b9</sprite>
+    <sprite>sprites\sp_b10</sprite>
+    <sprite>sprites\sp_button_save_and_quit</sprite>
+    <sprite>sprites\sp_button_sell</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_main</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\generate_field.gml</script>
+    <script>scripts\create_block.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_counts</font>
+    <font>fonts\fnt_counts_bold</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_cmd</object>
+    <object>objects\obj_button_sell_b1</object>
+    <object>objects\obj_button_save_and_quit</object>
     <object>objects\obj_pickaxe</object>
-    <object>objects\obj_block</object>
     <object>objects\obj_b1</object>
+    <object>objects\object6</object>
+    <object>objects\object7</object>
+    <object>objects\object8</object>
+    <object>objects\object9</object>
+    <object>objects\object10</object>
+    <object>objects\object11</object>
+    <object>objects\object12</object>
+    <object>objects\object13</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
