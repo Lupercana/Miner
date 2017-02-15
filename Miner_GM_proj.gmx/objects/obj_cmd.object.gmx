@@ -700,33 +700,41 @@ else if (global.mining_level == 999)
       </action>
       <action>
         <libid>1</libid>
-        <id>501</id>
+        <id>601</id>
         <kind>0</kind>
-        <userelative>-1</userelative>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_draw_sprite</functionname>
+        <functionname>action_execute_script</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>5</kind>
-            <sprite>sp_p1</sprite>
+            <kind>9</kind>
+            <script>disp_pick</script>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>792</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>348</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>-1</string>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>
@@ -774,7 +782,7 @@ else if (global.mining_level == 999)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>824</string>
+            <string>828</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -802,7 +810,7 @@ else if (global.mining_level == 999)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>856</string>
+            <string>860</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -830,7 +838,7 @@ else if (global.mining_level == 999)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>888</string>
+            <string>892</string>
           </argument>
           <argument>
             <kind>0</kind>

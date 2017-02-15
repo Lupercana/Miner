@@ -1,5 +1,5 @@
 if (global.mining_level >= 1 && global.mining_level < 100)
-    draw_sprite(sp_p1, 0, x, y);
+    draw_sprite_ext(sp_p1, 0, 798, 356, 2, 2, 0, c_white, 255);
 else if (global.mining_level >= 100 && global.mining_level < 200)
     draw_sprite(sp_p2, 0, x, y);
 else if (global.mining_level >= 200 && global.mining_level < 300)
