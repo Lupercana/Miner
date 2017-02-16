@@ -44,6 +44,7 @@
     <script>scripts\sel_pick.gml</script>
     <script>scripts\disp_pick.gml</script>
     <script>scripts\save_game.gml</script>
+    <script>scripts\spawn_new_block.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_counts</font>
