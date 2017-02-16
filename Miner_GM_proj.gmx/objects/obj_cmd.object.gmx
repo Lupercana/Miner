@@ -431,6 +431,7 @@ ini_close();
             <string>if (global.mining_level == 100)
 {
     global.pick_level = 2;
+    global.pick_num_level = 2;
     global.grid_level = 2;
     
     // Reset field
@@ -444,17 +445,18 @@ ini_close();
 else if (global.mining_level == 200)
 {
     global.pick_level = 3;
-    global.pick_num_level = 2;
+    global.pick_num_level = 3;
     global.double_chance_level = 2;
 }
 else if (global.mining_level == 300)
 {
     global.pick_level = 4;
+    global.pick_num_level = 4;
 }
 else if (global.mining_level == 400)
 {
     global.pick_level = 5;
-    global.pick_num_level = 3;
+    global.pick_num_level = 5;
     global.grid_level = 3;
         
     // Reset field
@@ -468,21 +470,23 @@ else if (global.mining_level == 400)
 else if (global.mining_level == 500)
 {
     global.pick_level = 6;
+    global.pick_num_level = 6;
 }
 else if (global.mining_level == 600)
 {
     global.pick_level = 7;
-    global.pick_num_level = 4;
+    global.pick_num_level = 7;
     global.double_chance_level = 3;
 }
 else if (global.mining_level == 700)
 {
     global.pick_level = 8;
+    global.pick_num_level = 8;
 }
 else if (global.mining_level == 800)
 {
     global.pick_level = 9;
-    global.pick_num_level = 5;
+    global.pick_num_level = 9;
     global.grid_level = 4;
         
     // Reset field
@@ -496,6 +500,7 @@ else if (global.mining_level == 800)
 else if (global.mining_level == 900)
 {
     global.pick_level = 10;
+    global.pick_num_level = 10;
 }
 else if (global.mining_level == 999)
 {
