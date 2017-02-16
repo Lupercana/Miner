@@ -1,10 +1,10 @@
 ini_open("miner_save_data.ini");
 
-ini_read_real("Variables", "mining_level", global.mining_level);
-ini_read_real("Variables", "pick_level", global.pick_level);
-ini_read_real("Variables", "pick_num_level", global.pick_num_level);
-ini_read_real("Variables", "grid_level", global.grid_level);
-ini_read_real("Variables", "double_chance_level", global.double_chance_level);
+ini_write_real("Variables", "mining_level", global.mining_level);
+ini_write_real("Variables", "pick_level", global.pick_level);
+ini_write_real("Variables", "pick_num_level", global.pick_num_level);
+ini_write_real("Variables", "grid_level", global.grid_level);
+ini_write_real("Variables", "double_chance_level", global.double_chance_level);
 ini_write_real("Variables", "money", global.money);
 ini_write_real("Variables", "xp", global.xp);
 ini_write_real("Variables", "b1_count", global.b1_count);
