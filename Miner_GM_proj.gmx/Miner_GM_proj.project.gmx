@@ -33,6 +33,8 @@
     <sprite>sprites\sp_b10</sprite>
     <sprite>sprites\sp_button_save_and_quit</sprite>
     <sprite>sprites\sp_button_sell</sprite>
+    <sprite>sprites\sp_button_no_noise</sprite>
+    <sprite>sprites\sp_button_yes_noise</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_main</background>
@@ -64,6 +66,7 @@
     <object>objects\obj_button_sell_b9</object>
     <object>objects\obj_button_sell_b10</object>
     <object>objects\obj_button_save_and_quit</object>
+    <object>objects\obj_button_noise</object>
     <object>objects\obj_pickaxe</object>
     <object>objects\obj_p1</object>
     <object>objects\obj_p2</object>

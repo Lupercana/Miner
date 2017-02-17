@@ -17,5 +17,6 @@ ini_write_real("Variables", "b7_count", global.b7_count);
 ini_write_real("Variables", "b8_count", global.b8_count);
 ini_write_real("Variables", "b9_count", global.b9_count);
 ini_write_real("Variables", "b10_count", global.b10_count);
+ini_write_real("Variables", "noise", global.noise);
 
 ini_close();
